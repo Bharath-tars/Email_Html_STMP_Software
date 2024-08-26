@@ -50,13 +50,79 @@ First, clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/your-username/email-html-smtp-software.git
+```
 Replace your-username with your GitHub username.
 
 ### 2. Navigate to the Project Directory
 Move into the project directory:
-## Documentation
+```bash
+cd Email_Html_STMP_Software
+```
+### 3. Install Dependencies
+Install the required Python packages using pip:
+```bash
+pip install smtplib
+pip install email
+pip install jinja
+```
+### 4. Configure the Application
+Before running the application, configure your SMTP settings. Open the config.py file and update it with your SMTP server details:
+```bash
+SMTP_SERVER = "smtp.example.com"
+SMTP_PORT = 587
+SENDER_EMAIL = "your-email@example.com"
+SENDER_PASSWORD = "your-email-password"
+```
+### 5. Run the Software
+To send an email, run the following command:
+```bash
+python mail.py
+```
+This will send the email using the configured SMTP server and HTML template.
 
-[Documentation](https://linktodocumentation)
+## Contributing
+### 1. Fork the Repository
+Click the "Fork" button at the top-right corner of the repository page to create a copy of the repository under your GitHub account.
+
+### 2. Create a New Branch
+Create a new branch for your feature or bugfix:
+```bash
+git checkout -b feature/your-feature-name
+```
+
+### 3. Make Changes and Commit
+After making your changes, commit them:
+```bash
+git add .
+git commit -m "Add a brief description of your changes"
+```
+
+### 4. Push to Your Fork
+Push your branch to your forked repository:
+```bash
+git push origin feature/your-feature-name
+```
+
+### 5. Create a Pull Request
+Go to the original repository and create a pull request. Provide a clear description of your changes and submit it for review.
+
+## Support
+If you encounter any issues, feel free to open an issue or contact the repository owner.
+
+
+
+## Authors
+
+- [Sudarsanam Bharath](https://www.github.com/Bharath-tars)
+
+
+## Badges
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+
+
+
+
 
 
 # Project Title
