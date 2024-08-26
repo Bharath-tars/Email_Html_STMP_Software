@@ -5,8 +5,8 @@ from jinja2 import Template
 
 def send_email(to_email, subject, html_content):
     # Email account credentials
-    from_email = "bharathworks2u@gmail.com"
-    password = "yiyiqhgtovmjoxeq"
+    from_email = " " #replace the space with the sender mailid
+    password = " " #replace the space with the passkey
 
     # Set up the MIME
     msg = MIMEMultipart('alternative')
