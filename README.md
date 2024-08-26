@@ -120,12 +120,3 @@ If you encounter any issues, feel free to open an issue or contact the repositor
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
-
-
-
-
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
