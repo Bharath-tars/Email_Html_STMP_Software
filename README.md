@@ -1,7 +1,7 @@
 
 # EMAIL HTML STMP Software
 
-This Software is a robust, feature-rich application designed to simplify and automate the process of sending emails with HTML content using the Simple Mail Transfer Protocol (SMTP). This software is tailored to meet the needs of businesses, developers, and IT professionals who require a reliable and customizable solution for email communications.
+This Software is a robust, feature rich application designed to simplify and automate the process of sending emails with HTML content using the Simple Mail Transfer Protocol (SMTP). This software is tailored to meet the needs of businesses, developers, and IT professionals who require a reliable and customizable solution for email communications.
 
 ## Key Features:
 ### HTML Email Composition
