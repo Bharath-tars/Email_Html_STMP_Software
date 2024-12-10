@@ -5,6 +5,7 @@ from jinja2 import Template
 
 def send_email(to_email, subject, html_content):
     # Email account credentials
+    #fill details below
     from_email = " " #replace the space with the sender mailid
     password = " " #replace the space with the passkey
 
